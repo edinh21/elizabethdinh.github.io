@@ -50,8 +50,9 @@ html, body {
 }
 
 .icons {
-    stroke-width: 1px;
-    fill: #F2545B;
+    position: absolute;
+    top: 55%;
+    right: 12.5em;
 }
 
 h1 {
