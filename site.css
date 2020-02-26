@@ -87,18 +87,22 @@ ul {
 
 footer{
     min-width: 100%;
-    height: 5em;
+    height: 4em;
     background: #8C5E58;
     position: absolute;
     bottom: 0;
     text-align: center;
+    font-size: 14pt;
+    line-height: 4em;
 }
 
 .content-footer {
     min-width: 100%;
-    height: 5em;
+    height: 4em;
     background: #8C5E58;
     position: relative;
     bottom: 0;
     text-align: center;
+    font-size: 14pt;
+    line-height: 4em;
 }
