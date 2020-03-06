@@ -10,6 +10,7 @@
 * {
     background-color: #F3F7F0;
     font-family: 'Roboto';
+    font-weight: 100;
 }
 
 html, body {
@@ -37,6 +38,7 @@ html, body {
     text-decoration: none;
     color:  #8C5E58;
     transition: color 0.5s;
+    font-weight: 100;
 }
 
 .navbar li a:hover {
@@ -86,10 +88,11 @@ html, body {
 
 .project-description {
     width: 75%;
+    font-weight: 100;
 }
 
 .project-icon {
-    margin-top: -40px;
+    margin-top: -60px;
     float: right;
     background: transparent;
 }
