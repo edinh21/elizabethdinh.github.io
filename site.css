@@ -163,6 +163,7 @@ h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 36pt;
+    line-height: 25px;
 
     color: #A93F55;
 }
@@ -170,7 +171,7 @@ h1 {
 h2 {
     color: #F2545B;
     font-size: 24pt;
-    line-height: 0.5em;
+    line-height: 10px;
 }
 
 p {
@@ -193,6 +194,8 @@ ol {
 ul {
     font-size: 12pt;
     color: #19323C;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-list {
