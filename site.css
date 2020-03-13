@@ -259,6 +259,11 @@ footer{
 
     .portrait {
         width: 40%;
+        border-radius: 100%;
+    }
+    
+    footer {
+        height: 0;
     }
   }
 
