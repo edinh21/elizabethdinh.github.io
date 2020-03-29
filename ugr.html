@@ -17,68 +17,62 @@
             </ul> 
         </div>
         <div align="center"><h1>UCSC Undergraduate Research Opportunities</h1></div>
-        <div align="center"><h2>Intro</h2></div>
+        <div align="center"><h2>Introduction</h2></div>
         <p>
-            The Undergraduate Research Opportunities website is offered to UCSC undergraduate students as a resource for them to explore research labs that are open for them to join and get information--such as scholarships, preparing to join a lab, and emailing professors. Although it is an extremely helpful resource in theory, the execution of the website is horrendous and there has not been changes made to the website in several years. Many people complain that the interface is not only hideous and bland, but also too cluttered to use efficiently. I have worked in a group of five to redesign the mobile website interface.
+            The Undergraduate Research Opportunities website is offered to UCSC undergraduate students as a resource for them to explore research labs that are open for them to join and get information--such as scholarships, preparing to join a lab, and emailing professors.
+        </p>
+        <div align="center"><h2>Target Audience</h2></div>
+        <p>
+            Users of the UCSC undergraduate research website are typically UCSC undergraduate students and professors. Specifically, this website attracts undergraduate students who are interested in graduate school and need labs to apply to graduate programs. It also lures in professors seeking students to help with their labs.
         </p>
         <div align="center"><h2>Needfinding</h2></div>
         <p>
-            We ran 8 needfinding interviews and 8 user evaluations on UCSC students who has been in undergraduate research labs. Based off answers from the 8 needfinding interviews we conducted, we concluded the following user stories:
+            Based off eight interviews, students wanted the following in the website:
             <ul style="padding-left: 5%; width: 75%;">
-                <li>As an undergraduate student interested in research, I want to easily access information about current positions so that I can find projects that interest me.</li>
-                <li>As an undergraduate student interested in research, I want to easily communicate with TAs and professors so that I can more efficiently complete the research process.</li>
-                <li>As an undergraduate student who is somewhat interested in research, I want a compelling reason to participate, so that I can make the final decision to go into research.</li>
-                <li>As an undergraduate student who plans on applying to grad school, I want to complete tasks that are directly related to what I will be pursuing for my master’s or PHD so that I can be prepared for graduate school.</li>
-                <li>As an undergraduate student, I want help deciding upon my area of interest so that I can find work that I enjoy.</li>
+                <li>Easy access to information on current available lab positions</li>
+                <li>Efficient communication with graduate students and professors</li>
+                <li>Information on what it’s like to be in a research lab</li>
+                <li>Guidance on applying to labs and how will labs help with future plans</li>
             </ul>
         </p>
-        <p>
-            Concluding based off our user stories and other information from our needfinding interviews, we came up with design goals entailing that:
+        <div align="center"><h2>Heuristics Analysis</h2></div>
+        <p>After running heuristic evaluations on the currently deployed website, we found major flaws:
             <ul style="padding-left: 5%; width: 75%;">
-                <li>Students want a website that emphasizes the projects over everything else. On the website, they are overloaded with too much information interrupts them from finding the information that they really want in an efficient way.</li>
-                <li>Rather than the website itself, undergraduates who are interested in research frequently find out about opportunities through word of mouth (mainly from professors).</li>
-                <li>There are undergraduates who have partaken in research and recommend that others do not take up research. This busts the assumption that undergraduates enjoyed research.</li>
-                <li>Undergraduates also like to participate in research unrelated to their major. We did not expect for undergraduates to purposefully choose projects unrelated to their majors.</li>
-                <li>Students who are interested in research are not set on going to grad school. They are still “on the fence” and trying to decide what it is that they want to pursue academically.</li>
-            </ul>
-        </p>
-        <div align="center"><h2>User Evaluations and Heuristics Analysis</h2></div>
-        <p>
-            Ivy and I created two different paper prototypes: prototype A and prototype B. We then conducted A/B testing and WoZ testing with the paper prototypes. We asked 8 different interviewees to perform the following tasks:
-            <ol>
-                <li>Find what labs have current openings for undergraduate research assistants.</li>
-                <li>Find more information about research in your major or other majors you are interested in.</li>
-                <li>Find contact information for grad students and professors in a research lab.</li>
-            </ol>
-        </p>
-        <p>
-            Based off the responses from the A/B testing and WoZ testing, we learned that:
-            <ul style="padding-left: 5%; width: 75%;">
-                <li>Users use the search bar frequently to find information when they don’t know what tab to go to.</li>
-                <li>Occasionally, users struggled with finding contact info for labs likely because it’s deeper into the list of labs.</li>
-                <li>Users did not have an easy way out if they got stuck or were confused. There needs to be an FAQ.</li>
-            </ul>
-        </p>
-        <p>We also ran heuristics analysis on the currently deployed UCSC undergraduate research studies website to pinpoint all of its usability flaws. We found that:
-            <ul style="padding-left: 5%; width: 75%;">
-                <li>The website should have a simplified structure and redundant links should be removed and there should be minimizing and maximizing tabs.</li>
-                <li>The system should give the user feedback when keywords are inputted and there should be a page with descriptions for next steps for searches.</li>
+                <li>The website is too cluttered in both the navigation menu and page content</li>
+                <li>The search bar doesn’t give users feedback</li>
             </ul>
         </p>
         <div align="center"><h2>Wireframes</h2></div>
+        <p>
+            Based on our findings from interviews and heuristic evaluations, Ivy and I created two different wireframes to use for user testing. Ivy sketched out prototype A, whereas I worked on prototype B.
+        </p>
         <div class="center"><img src="Wireframes/UGR/PrototypeA.jpg" width="50%"/></div>
         <div align="center">Prototype A by Ivy</div>
         <br/>
         <div class="center"><img src="Wireframes/UGR/PrototypeB.jpg" width="50%"/></div>
         <div align="center">Prototype B by me</div>
         <br/>
-        <div align="center"><h2>High Fidelity Prototype</h2></div>
+        <div align="center"><h2>Problems</h2></div>
         <p>
-            Based on the facts that users made less errors on my wireframe and rated my wireframe more favorably, we decided to design the high fidelity prototype based off my sketch over Ivy's.
+            After running eight user evaluations using A/B testing and WoZ testing, we found that:
+            <ul style="padding-left: 5%; width: 75%;">
+                <li>Occasionally, users struggled with finding contact info for labs</li>
+                <li>Users did not have an easy way out if they got stuck or were confused</li>
+                <li>Users tend to use the search bar to find information when they don’t know which link to click on</li>
+                <li>Interviewees seemed to have an easier time using prototype B</li>
+            </ul>
+        </p>
+        <div align="center"><h2>Solutions</h2></div>
+        <p>
+            We simplified the menu structure and made link names more intuitive to prevent users from being confused and overwhelmed.
         </p>
         <div align="center">
             <img src="Prototypes/UGR/Landing.jpg" width="25%"/><img src="Prototypes/UGR/Landing – Expanded Search Bar.jpg" width="25%"/><img src="Prototypes/UGR/Side Bar.jpg" width="25%"/>
-            <br/>
+        </div>
+        <p>
+            We also gave users an FAQ page and feedback as they type in letters into the search bar.
+        </p>
+        <div align="center">
             <img src="Prototypes/UGR/Engr Labs – mecheng.jpg" width="25%"/><img src="Prototypes/UGR/Lab Page.jpg" width="25%"/><img src="Prototypes/UGR/FAQ – Faculty-Professor Contact Info.jpg" width="25%"/>
         </div>
         <br/>
